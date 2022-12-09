@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap');
+
+
+/* Class Code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Fraunces', sans-serif;
+    background: #f3eae3;
+}
+
+main{
+    width: 60%; 
+    border-radius: 5px; 
+    background: white;  
+}
+
+.container{
+
+  display: flex; 
+  
+  
+}
+
+.picture{
+    background-image: url("images/image-product-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+}
+
+.principal{
+    width: 50%;
+    padding: 2em;
+}
+
+.title{
+    margin: 0 0 1em 0;
+    font-family:"Montserrat";
+    font-weight: 100px;
+    font-size: 16px;
+    color: hsla(212, 21%, 14%, .5);
+    letter-spacing: 5px;
+    
+    
+}
+.heading{
+    color:hsl(212, 21%, 14%);
+    width: 10ch;
+    margin-bottom: 1em;
+}
+
+.principal p{
+    margin-bottom: 1em;
+}
+
+.price{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background: green;
+
+}
+
+button span{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: .5em;
+}
+
+
+/* Ola's Code */
